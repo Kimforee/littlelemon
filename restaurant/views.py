@@ -10,7 +10,7 @@ def home(request):
 
 def about(request):
     return render(request, 'about.html')
-
+                        
 def book(request):
     form = BookingForm()
     if request.method == 'POST':
